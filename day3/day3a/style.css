@@ -1,0 +1,108 @@
+* {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+section {
+  padding: 0 5vw;
+}
+
+.container {
+  width: 100%;
+}
+
+.container.large {
+  max-width: 80rem;
+}
+
+.container.medium {
+  max-width: 64rem;
+}
+
+.container.small {
+  max-width: 48rem;
+}
+
+.container.xsmall {
+  max-width: 32rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.feature-wrapper {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: auto;
+}
+
+.pokemon-img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.pokemon-stats-wrapper {
+  padding: 2rem;
+  background-color: #ffffff76;
+  border-radius: 8px;
+}
+
+.additional-info-wrapper {
+  border-radius: 16px;
+  background-color: #30a7d7;
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.type-button-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.type-button {
+  width: 23%;
+  margin: 8px 6px 0 6px;
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 8px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.type-button.electric {
+  background-color: #eed535;
+}
+
+.type-button.Psychic {
+  background-color: #f466b9;
+  color: #ffffff;
+}
+.type-button.ground {
+  background-color: #ab9842;
+  color: #ffffff;
+}
+.type-button.bug {
+  background-color: #729f3f;
+  color: #ffffff;
+}
+.type-button.ghost {
+  background-color: #7b62a3;
+  color: #ffffff;
+}
+.type-button.dark {
+  background-color: #707070;
+  color: #ffffff;
+}
