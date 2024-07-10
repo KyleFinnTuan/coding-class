@@ -1,5 +1,5 @@
-const firstNumber = 10
-const secondNumber = 20
+const firstNumber = 2
+const secondNumber = 2
 
 console.log("The result for " + (firstNumber) + " plus " + (secondNumber) + " is "+ (firstNumber + secondNumber));
 console.log("The result for " + (firstNumber) + " minus " + (secondNumber) + " is " + (firstNumber - secondNumber));
